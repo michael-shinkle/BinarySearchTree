@@ -58,7 +58,6 @@ struct Node {
 class BinarySearchTree {
 private:
 	Node *root;
-
 	void addNode(Node *node, Course course);
 	void inOrder(Node *node);
 	void validateInOrder(Node *node);
